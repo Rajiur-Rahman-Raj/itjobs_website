@@ -1,0 +1,405 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .banner {
+        height: 220px;
+    }
+    .banner_text {
+        padding-top: 80px;
+    }
+    .banner_text h2 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .banner_text input {
+        border-style: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 14px;
+        color: black;
+        width: 250px;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .banner_text i {
+        padding-top: 6px;
+        padding-bottom: 10px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    /*header css start*/
+    .header .navbar ul li a.nav-link {
+        display: inline-block;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+    .header .navbar ul li a.nav-link.active {
+        display: inline-block;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 8px 25px;
+    }
+    .header .navbar ul li {
+        transition: all .2s linear;
+        background: #FF4742;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .header .navbar ul li.home {
+        border: 2px solid #5BC6C6;
+        transition: all .2s linear;
+        background: transparent;
+        margin-right: 10px;
+        border-radius: 4px;
+        background: #5BC6C6;
+    }
+    .header .navbar ul li:hover {
+        background: #FF4742;
+        border: 2px solid #FF4742;
+    }
+    .header .navbar ul li:hover a.nav-link {
+        color: white
+    }
+    /*header css end*/
+    /*category css start*/
+    .category {
+        padding-top: 20px;
+    }
+    .category .category_link {
+        text-align: center;
+    }
+    .category .category_link a {
+        display: inline-block;
+        color: #171817;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        text-shadow: 10px 10px 15px gray;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .category .category_link a:before {
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: #FF4742;
+        transition: all .2s linear;
+    }
+    /*category css end*/
+    /*jobs css start*/
+    .jobs {
+        padding-top: 20px;
+    }
+    .section_header h2 {
+        font-family: 'Fira Sans', sans-serif;
+        color: #121212;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .job_details .card {
+        border-style: none;
+        border-bottom: 1px solid #a7a7a7;
+    }
+    .job_details .card-header {
+        background: #e8e8e8;
+        border-style: none;
+        cursor: pointer;
+    }
+    .job_details .card-body {
+        background: #f0f0f0;
+        border-top: 1px solid #a7a7a7;
+        color: #121212
+    }
+    .job_icon {
+        line-height: 50px;
+        text-align: center;
+    }
+    .job_icon img {
+        width: 85%;
+        vertical-align: middle;
+    }
+    .job_heading h3 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        color: #121212;
+    }
+    .job_heading h5 {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 13px;
+        color: #121212;
+        font-weight: 400;
+        margin-bottom: 5px;
+    }
+    .job_heading p {
+        color: #121212;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .job_heading p span {
+        font-style: italic;
+        color: #121212;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .job_tag a {
+        display: inline-block;
+        color: #121212;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        text-transform: uppercase;
+        border: 1px solid #121212;
+        border-radius: 5px;
+        padding: 2px 8px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+        transition: all .3s linear;
+    }
+    .job_tag a:hover {
+        background: rgba(128, 128, 128, 0.55);
+    }
+    .job_post_link {
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    .job_post_link a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        transition: all .3s linear;
+    }
+    .job_post_link a:hover {
+        background: #FF4742;
+        box-shadow: 15px 15px 20px grey
+    }
+    .job_name_search {
+        margin-bottom: 15px;
+    }
+    .job_name_search form {
+        background: #333333;
+        padding: 10px 15px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    .job_name_search form label {
+        font-family: 'Rubik', sans-serif;
+        display: block;
+        color: #a29bfe;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .job_name_search form select {
+        padding: 2px 5px;
+        color: ghostwhite;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        transition: all .2s linear;
+        cursor: pointer;
+        margin-bottom: 2px;
+    }
+    .job_name_search form select:focus {
+        box-shadow: 5px 5px 20px #696969;
+        cursor: pointer;
+        color: ghostwhite;
+    }
+    .job_name_search form select option {
+        background: #343434;
+    }
+    .job_name_search form button {
+        border-style: none;
+        background: transparent;
+        cursor: pointer;
+        color: ghostwhite;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+    }
+    .job_name_search form button i {
+        color: #a29bfe;
+        margin-right: 3px;
+    }
+    .others .left_others p a {
+        display: inline-block;
+        color: #a29bfe
+    }
+    .others .site_link a {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 2px solid #a29bfe;
+        color: #121212;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all .2s linear;
+        background: #a29bfe;
+    }
+    .others .site_link button {
+        border-style: none;
+        padding: 5px 10px;
+        border: 2px solid #a29bfe;
+        color: #121212;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all .2s linear;
+        background: #a29bfe;
+        cursor: pointer;
+    }
+    /*jobs css end*/
+    /*footer css start*/
+    .footer {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: 120px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-top: 1px solid #333333;
+        border-radius: 25px 25px 0px 0px;
+    }
+    .footer_1 h1 {
+        color: ghostwhite;
+        font-family: 'Courgette';
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .footer_1 h1 span.brand_name {
+        color: #FF4742;
+        font-family: 'Courgette';
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .footer_1 p {
+        color: ghostwhite;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .footer_1 a {
+        display: inline-block;
+        color: ghostwhite;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        margin-right: 8px;
+        transition: all .2s linear;
+    }
+    .footer_1 a:hover {
+        color: #121212
+    }
+    .footer_icon {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .footer_icon a {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .footer_icon a i {
+        color: ghostwhite;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 16px;
+        text-align: center;
+        background: #FF4742;
+        border-radius: 50%;
+    }
+    .footer_1 span {
+        color: ghostwhite;
+        font-size: 13px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+    }
+    .footer_2 h5 {
+        color: #FF4742;
+    }
+    .footer_2 a {
+        display: block;
+        color: ghostwhite;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    /*footer css end*/
+    /*Menu Fixed CSS Start*/
+    .job_post_link {
+        position: fixed;
+        right: 65px;
+        bottom: 50px;
+        cursor: pointer;
+        transition: all .3s linear;
+        display: none;
+    }
+    /*Menu Fixed CSS End*/
+    /*Top Button Start*/
+    .top_btn {
+        position: fixed;
+        right: 22px;
+        bottom: 50px;
+        height: 40px;
+        width: 40px;
+        line-height: 35px;
+        text-align: center;
+        background-color: #FF4742;
+        border: 2px solid #FF4742;
+        border-radius: 50%;
+        color: #e8e8e8;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .3s linear;
+        display: none;
+    }
+    .top_btn:hover {
+        border-color: #FF4742;
+        background-color: #FF4742;
+        color: black;
+    }
+    /*Top Button End*/
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
